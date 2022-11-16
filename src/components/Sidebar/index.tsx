@@ -1,8 +1,7 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React, { useState } from "react";
 import * as FaIcons from "react-icons/fa";
 import { SidebarData } from "./sidebarData";
-import { useState } from "react";
+import { Link } from "react-router-dom";
 
 import styled from "styled-components";
 
@@ -19,12 +18,13 @@ const Title = styled.h1`
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: auto;
+  margin: auhref;
   padding: 0;
   text-transform: uppercase;
   font-size: 30px;
   font-weight: 700;
   color: #fff;
+  letter-spacing: 3px;
 `;
 
 const MenuIconOpen = styled(Link)`
@@ -45,7 +45,7 @@ const MenuIconClose = styled(Link)`
 `;
 
 const SidebarMenu = styled.div<{ close: boolean }>`
-  width: 270px;
+  width: 250px;
   height: 100vh;
   background-color: #a5c2be;
   position: fixed;

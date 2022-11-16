@@ -7,19 +7,19 @@ export const SidebarData = [
     icon: <FaIcons.FaHome />,
   },
   {
-    title: "συνεργειο",
-    path: "/team",
+    title: "ποιοι ειμαστε",
+    path: "/about",
     icon: <FaIcons.FaUsers />,
   },
   {
-    title: "Tasks",
+    title: "δουλειες",
     path: "/tasks",
     icon: <FaIcons.FaTasks />,
   },
   {
-    title: "Chats",
-    path: "/chats",
-    icon: <FaIcons.FaRocketchat />,
+    title: "συνεργατεσ",
+    path: "/collaborators",
+    icon: <FaIcons.FaUserTie />,
   },
   {
     title: "πληροφοριεσ",

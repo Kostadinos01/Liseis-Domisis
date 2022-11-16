@@ -4,9 +4,9 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Sidebar from "./components/Sidebar";
 
 import Home from "./pages/Home";
-import Team from "./pages/Team";
+import About from "./pages/About";
 import Tasks from "./pages/Tasks";
-import Chats from "./pages/Chats";
+import Collaborators from "./pages/Collaborators";
 import Info from "./pages/Info";
 
 const AppRoutes: React.FunctionComponent = () => {
@@ -16,10 +16,10 @@ const AppRoutes: React.FunctionComponent = () => {
         <Sidebar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/team" element={<Team />} />
+          <Route path="/about" element={<About />} />
           <Route path="/tasks" element={<Tasks />} />
-          <Route path="/chats" element={<Chats />} />
-          <Route path="/Info" element={<Info />} />
+          <Route path="/collaborators" element={<Collaborators />} />
+          <Route path="/info" element={<Info />} />
         </Routes>
       </Router>
     </>
